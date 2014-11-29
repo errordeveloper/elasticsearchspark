@@ -18,7 +18,7 @@ libraryDependencies ++= Seq(
   "org.eclipse.jetty"  % "jetty-client" % "8.1.14.v20131031",
   "com.typesafe.play" % "play-json_2.10" % "2.2.1",
   "com.fasterxml.jackson.core" % "jackson-databind" % "2.3.3",
-  "org.elasticsearch" % "elasticsearch-hadoop" % "2.1.0.Beta2-holdenmagic",
+  "org.elasticsearch" % "elasticsearch-hadoop" % "2.1.0.Beta3",
   "net.sf.opencsv" % "opencsv" % "2.0",
   "com.twitter.elephantbird" % "elephant-bird" % "4.5",
   "com.twitter.elephantbird" % "elephant-bird-core" % "4.5",
@@ -35,8 +35,10 @@ resolvers ++= Seq(
    "Apache HBase" at "https://repository.apache.org/content/repositories/releases",
    "Twitter Maven Repo" at "http://maven.twttr.com/",
    "scala-tools" at "https://oss.sonatype.org/content/groups/scala-tools",
-  "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/",
-  "Second Typesafe repo" at "http://repo.typesafe.com/typesafe/maven-releases/"
+   "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/",
+   "Second Typesafe repo" at "http://repo.typesafe.com/typesafe/maven-releases/",
+   "Conjars" at "http://conjars.org/repo",
+   "Clojars" at "http://clojars.org/repo"
 )
 
 // temporary hack until we no longer need the customized elasticsearch-hadoop-mr
